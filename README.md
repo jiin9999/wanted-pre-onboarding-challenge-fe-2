@@ -12,6 +12,5 @@ npm install
 - 혹은, https://jiin9999.github.io/wanted-pre-onboarding-challenge-fe-2/out/index.html 를 통해 확인하실 수 있습니다.
 
 ## 사전과제 설명
-- sideEffect가 발생하지 않도록 모든함수에 todos를 인자로 받아 순수함수로 구현하였습니다.
 
 
