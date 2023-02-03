@@ -22,9 +22,8 @@ const todos = [];
  * @param {string} obj.content
  * @param {category} obj.category
  * @param {string[]} obj.tags
- * @param {Todo[]} todos
  */
-const createTodo = ({ content, category, tags }, todos) => {};
+const createTodo = ({ content, category, tags }) => {};
 
 /**
  * 모든 할 일을 조회하는 함수
@@ -40,9 +39,8 @@ const readTodo = (id) => {};
  * @function updateTodo
  * @author jiin9999 <cji3604@gmail.com>
  * @param {Object} Todo
- * @param {Todo[]} todos
  */
-const updateTodo = (Todo, todos) => {};
+const updateTodo = (Todo) => {};
 
 /**
  * ID를 기반으로 특정 할 일을 제거하는 함수
@@ -50,9 +48,8 @@ const updateTodo = (Todo, todos) => {};
  * @function deleteTodoById
  * @author jiin9999 <cji3604@gmail.com>
  * @param {string} id
- * @param {Todo[]} todos
  */
-const deleteTodoById = (id, todos) => {};
+const deleteTodoById = (id) => {};
 
 /**
  * ID를 기반으로 특정 할 일의 특정 태그를 삭제할 수 있다.
@@ -62,6 +59,5 @@ const deleteTodoById = (id, todos) => {};
  * @param {Object} obj
  * @param {string} obj.id
  * @param {string[]} obj.tags
- * @param {Todo[]} todos
  */
-const deleteTagInTodo = ({ id, tags }, todos) => {};
+const deleteTagInTodo = ({ id, tags }) => {};
